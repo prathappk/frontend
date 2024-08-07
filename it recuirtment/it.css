@@ -14,7 +14,6 @@
 }
 
 .navbar {
-  
   background-color: rgba(0, 2, 1, 0.219);
   height: 15vh;
   display: flex;
@@ -30,13 +29,10 @@
   height: 110px;
   object-fit: cover;
   border-radius: 50%;
-  display: block;
 }
 
 .navbar ul li {
-
   align-items: center;
-  list-style: none;
   display: inline-block;
   margin-left: 30px;
   position: relative;
@@ -59,19 +55,13 @@
   cursor: pointer;
   align-items: center;
   border-radius: 50px;
-
 }
 
-ul {
-  list-style-type: none;
+#menu ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgba(34, 28, 28, 0);
-}
-
-li {
-  float: left;
 }
 
 li a {
@@ -85,8 +75,6 @@ li a {
 li a:hover {
   background-color: rgba(17, 17, 17, 0.986);
 }
-
-
 
 .fa-reddit-alien {
   color: #fff;
@@ -114,52 +102,129 @@ li a:hover {
   align-items: center;
   justify-content: right;
   gap: 10px;
-  
 }
 
-
-#menu{
+#menu {
   display: flex;
   width: 100%;
 }
 
-#login{
-  margin-top: 1%;
+#login {
+  margin-top: 2%;
   margin-left: 4%;
   font-size: 30px;
   width: 8%;
-  height:6%;
-  border-radius:100px;
+  height: 6%;
+  border-radius: 100px;
   text-align: center;
   transition: box-shadow 0.5s ease-in-out;
 }
-#login:hover{
+#login:hover {
   box-shadow: -10px 10px 16px rgba(250, 20, 20, 0.4);
   cursor: pointer;
-  
 }
 
-
-#heading-container{
+#heading-container {
   padding-top: 8%;
   padding-left: 4%;
   display: flex;
   flex-direction: column;
   color: #fff;
   font-size: 28px;
-  
 }
 
-p{
+#cms{
   color: #fff;
   padding-top: 1%;
   padding-left: 4%;
+}
+
+#line::first-letter {
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness: 2.5px;
+}
+
+.mul-lst {
+  margin-left: 4%;
+  margin-top: 1.5%;
+  display: flex;
+  width: 90%;
+  height: 10%;
 
 }
 
+.multi-list {
+  margin-top: 5%;
+  list-style-type: none;
+  display: flex;
+  position: absolute ;
+  flex-direction: column;
+  width: 42%;
+  height: 10%;
+  gap: 20px;
+}
 
-#line::first-letter{
-    text-decoration: underline;
-    text-decoration-color: aqua;
-    text-decoration-thickness: 2.5px;
+.multi-list li {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.multi-list li::after {
+  content: " ";
+  width: 35%;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+}
+
+.multi-list li::before {
+  content: ">";
+  margin-right: 10px;
+  font-size:20px;
+  color: rgb(8, 245, 150);
+}
+
+#partner{
+z-index: 10;
+margin-top: 3%;
+margin-left: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.pat-hand{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.gopap{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#paper{
+  color: darkgray;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.fa-cloud-download-alt{
+  font-size:48px;color:rgb(8, 207, 157)
+}
+
+.report{
+  width: 100%;
+  height: 20%;
 }
