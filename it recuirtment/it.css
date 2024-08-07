@@ -12,7 +12,6 @@
   background-size: cover;
   background-position: center;
 }
-
 .navbar {
   background-color: rgba(0, 2, 1, 0.219);
   height: 15vh;
@@ -133,7 +132,7 @@ li a:hover {
   font-size: 28px;
 }
 
-#cms{
+#cms {
   color: #fff;
   padding-top: 1%;
   padding-left: 4%;
@@ -151,14 +150,13 @@ li a:hover {
   display: flex;
   width: 90%;
   height: 10%;
-
 }
 
 .multi-list {
   margin-top: 5%;
   list-style-type: none;
   display: flex;
-  position: absolute ;
+  position: absolute;
   flex-direction: column;
   width: 42%;
   height: 10%;
@@ -184,14 +182,14 @@ li a:hover {
 .multi-list li::before {
   content: ">";
   margin-right: 10px;
-  font-size:20px;
+  font-size: 20px;
   color: rgb(8, 245, 150);
 }
 
-#partner{
-z-index: 10;
-margin-top: 3%;
-margin-left: 50px;
+#partner {
+  z-index: 10;
+  margin-top: 3%;
+  margin-left: 50px;
 }
 
 .flex-container {
@@ -200,31 +198,29 @@ margin-left: 50px;
   background-color: white;
 }
 
-.pat-hand{
+.pat-hand {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 
-
-.gopap{
+.gopap {
   display: flex;
   flex-direction: column;
 }
 
-
-#paper{
+#paper {
   color: darkgray;
   display: flex;
   flex-direction: column;
-
 }
 
-.fa-cloud-download-alt{
-  font-size:48px;color:rgb(8, 207, 157)
+.fa-cloud-download-alt {
+  font-size: 48px;
+  color: rgb(8, 207, 157);
 }
 
-.report{
+.report {
   width: 100%;
   height: 20%;
 }

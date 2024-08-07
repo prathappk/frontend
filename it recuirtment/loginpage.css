@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#digi{
+  display: flex;
+  padding-top: 10%;
+  font-size: 60px;
+}
+#tm{
+  display: flex;
+  width: 20%;
+  font-size: 10px;
+  
+}
+.banner {
+  display: flex;
+  background-image: url(formbg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#for{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.con {
+  justify-content: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  font-size: 22px;
+  row-gap: 30px;
+}
+
+
+#form{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+#num{
+  display: flex;
+  row-gap: 40px;
+}
+.wrapper {
+  background-position: center;
+  margin-top: 10%;
+  margin-bottom: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 50vh;
+  background: white;
+  color: black;
+}
+#plogo {
+  margin-top: 5%;
+  display: flex;
+  width: 10%;
+  border-radius: 50%;
+  margin-bottom: 1%;
+}
+#loghead {
+  text-align: center;
+  display: flex;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 20%;
+}
+.input_box {
+  align-items: center;
+  display: flex;
+  width: 20%;
+  margin-bottom: 10%;
+}
+.input {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 10%;
+}
+#username {
+  display: flex;
+  align-items: center;
+  width:300px;
+  height: 3vh;
+}
+
+#usericon{
+  display: flex;
+  width: 10%;
+}
+
+#pas{
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 3vh;
+}
+.btn {
+  display: flex;
+  gap: 30px;
+}
+
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+#signup {
+  display: flex;
+  justify-content: center;
+  width: 32%;
+}
+
+.forpas {
+  display: flex;
+  margin-top: 10%;
+  gap: 20px;
+}
